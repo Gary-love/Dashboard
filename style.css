@@ -1,8 +1,8 @@
 body{
 margin: 0px;
- background-color: rgb(197, 188, 188);
+ background-color: #64748b;
 }
-.change-my-color{
+div>.change-my-color{
     height: 30px;
     width: 30px;
     margin-right: 20px;
@@ -39,4 +39,75 @@ margin: 0px;
 }
 .nav{
     margin-bottom: 50px;
+}
+.search,.bell{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap:15px;
+}
+.form{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    }
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    >div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+input{
+    width: 650px;
+    height: 30px;
+    border-radius: 25px;
+    border:1px solid rgb(163, 158, 158);
+    margin-right: 150px;
+    background-color: rgb(163, 158, 158);
+}
+.last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+.man{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid aqua ;
+}
+.profile{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+button{
+    color: white;
+    border-radius: 10px;
+    border: 1px solid  rgb(0, 132, 255);
+    height: 30px;
+    width: 100px;
+    background-color: rgb(0, 132, 255);
+    margin-top: 20px;
 }
